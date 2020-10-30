@@ -1,0 +1,17 @@
+* SPICE3 file created from cell_icon.ext - technology: scmos
+
+.option scale=0.2u
+
+M1000 Q Q_Bar GND GND nfet w=8 l=2
++  ad=60 pd=36 as=88 ps=56
+M1001 Q_Bar WL BLB GND nfet w=4 l=2
++  ad=60 pd=36 as=20 ps=18
+M1002 Q Q_Bar VDD VDD pfet w=3 l=4
++  ad=19 pd=18 as=38 ps=36
+M1003 VDD Q Q_Bar VDD pfet w=3 l=4
++  ad=0 pd=0 as=19 ps=18
+M1004 GND Q Q_Bar GND nfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1005 Q WL BL GND nfet w=4 l=2
++  ad=0 pd=0 as=20 ps=18
+C0 VDD GND 2.55fF
